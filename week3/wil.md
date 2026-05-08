@@ -22,9 +22,6 @@ p{
 }
 ```
 
-### html 작성법
-<link rel="stylesheet" type="text/css" href="padding.css" />
-
 ## margin: 현재 요소와 다른 요소 사이의 간격 조절한다.
 ### css 작성법 
 - 개별지정
@@ -39,12 +36,6 @@ m{
 - 통합지정
     :padding 방식과 동일
 
-### html 작성법
-<link rel="stylesheet" type="text/css" href="padding.css" />
-
 2.참고자료
 [padding](https://aboooks.tistory.com/81)
 [margin](https://aboooks.tistory.com/78)
-
-선택
-h1태그 및 다른 태그에 margin과 padding 적용할 것
