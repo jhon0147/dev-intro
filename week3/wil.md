@@ -14,35 +14,37 @@ p {
 }
 ```
 - 통합지정
+```javascript
 p{
     padding:5px; //4면 전체
-    padding:5px; 7px 6px 2px //위, 오른쪽, 아래, 왼쪽
+    padding:5px 7px 6px 2px; //위, 오른쪽, 아래, 왼쪽
     padding:5px; 7px //위 아래, 오른쪽 왼쪽
 }
+```
 
 ### html 작성법
 <link rel="stylesheet" type="text/css" href="padding.css" />
 
-## margin: 현재 요소와 다른 요소 사이의 간격 조절
+## margin: 현재 요소와 다른 요소 사이의 간격 조절한다.
 ### css 작성법 
 - 개별지정
+```javascript
 m{
     margin-top:5px;
     margin-right:5px;
     margin-bottom:5px;
     margin-left:5px;
 }
+```
 - 통합지정
-    padding 방식과 동일
+    :padding 방식과 동일
 
 ### html 작성법
-
+<link rel="stylesheet" type="text/css" href="padding.css" />
 
 2.참고자료
 [padding](https://aboooks.tistory.com/81)
 [margin](https://aboooks.tistory.com/78)
 
 선택
-마크다운 문법 code block, heading, bold, list, link 포함할 것
-
 h1태그 및 다른 태그에 margin과 padding 적용할 것
